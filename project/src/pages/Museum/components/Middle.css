@@ -1,0 +1,30 @@
+.intro{
+    text-align: center;
+    font-style: italic;
+}
+
+.title-left{
+    color: black;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.title-left-2{
+    color: black;
+    font-weight: bold;
+}
+
+.col-title{
+    text-align: center;
+}
+
+.content-right{
+    text-align: justify;
+}
+
+.img {
+    width: 100%;
+    max-width: 850px;
+    height: 400px;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.img {
+    width: 100%;
+    max-width: 750px;
+    height: 400px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel {
+    height:435px;
+    margin: auto;
+}

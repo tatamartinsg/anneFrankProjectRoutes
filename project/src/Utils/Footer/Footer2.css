@@ -1,0 +1,57 @@
+footer{
+    text-align: center;
+    color: white;
+    background: url("../../assets/home/img/bg.jpg");
+    box-sizing: content-box;
+    width: 100%;
+    font-family:Verdana;
+}
+.ul-footer2{
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .ul-footer{
+    font-size: 15px;
+    text-align: justify;
+    margin: 2% 150px 0px 0px;
+    padding: 20px;
+    /* text-align: right; */
+    float:right;
+  }
+  .ul-footer li{
+    padding: 5px;
+    list-style-type: none;
+  }
+  .img-footer{
+    /* position: absolute; */
+    padding: 15px;
+    margin-left: 43%;
+    width: 200px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  a.insta:hover{
+    color: rgb(218, 76, 76);
+  }
+  a.facebook:hover{
+    
+    color: rgb(85, 145, 163);
+  }
+  a.github:hover{
+   
+    color: rgb(119, 127, 129);
+  }
+  a.github{
+    margin-right: 14px;
+  }
+  .insta-img, .facebook-img, .github-img{
+    width: 30px;
+    height: auto;
+  }

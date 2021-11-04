@@ -1,0 +1,27 @@
+.img {
+    max-width: 700px;
+    height: 400px;
+
+}
+.carousel-inner{
+    padding: 15px;
+}
+.carousel-inner img {
+    margin: auto;
+    height: 400px;
+    /* padding: 5px; */
+    /* width: 100%; */
+    /* margin-left: 80px; */
+}
+
+.carousel {
+    height:435px;
+    margin: auto;
+}
+.carousel-indicators{
+    margin: 0;
+}
+img.d-block{
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 5px rgb(83, 80, 80);
+}

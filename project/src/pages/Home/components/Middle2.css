@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* display: flex; */
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 230, 224);
+    /* background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #ffffff 0%, #F7CE68 100%) */
+  }
+  div{
+    margin: 0px;
+  }
+
+.h1-principal{
+    text-align: center;
+    text-indent: 10%;
+    margin-left: 8%;
+    text-justify: inter-word;
+    font-size: 22px;
+    line-height: 30px;
+    width: 1000px;
+    display: inline-block;
+    /* width: 200px  ; */
+  
+    margin-top: 4%;
+    font-style: italic;
+    opacity:0.6;
+    transition: 0.5s all;
+}
+.h1-principal:hover{
+    opacity: 0.8;
+}
+
+.div-corpo h1{
+    font-weight: bold;  
+    margin-bottom: 40px;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.div-corpo{
+    /* margin: 100px; */
+    padding: 50px;  
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .anneCorpo{
+    width: 420px;
+      float: left;
+    margin: 0px 50px 30px 50px;
+    transition: 0.5s all;
+    opacity: 0.8;
+    border-radius: 10px 5%;
+  }
+  .anneCorpo:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  p {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 22px;
+    
+  }
+  .deportacao {
+    display: inline-block;
+    /* padding: 100px;   */
+    margin-bottom: 50px;
+    padding-bottom: 150px;
+  }
+  
+  .deportacao h2{
+    font-weight: bold;  
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    padding-bottom: 50px;
+  }
+  .img-deportacao{
+    float: right;
+    width: 450px;
+    margin: 0px 50px 20px 50px;
+    transition: 0.5s all;
+    opacity: 0.9;
+    border-radius: 10px 5%;
+  }
+  .img-deportacao:hover{
+    transform: scale(1.1);
+    opacity: 1;
+  }
