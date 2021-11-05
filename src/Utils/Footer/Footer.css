@@ -57,39 +57,62 @@ footer{
   }
 
 
-  @media only screen and (max-width: 900px){
-    footer{
-      width: 100%;
-    }
-    .ul-footer{
-      padding: 0;
-    }
-    .img-footer{
-      margin-right: 5%;
-      margin-left: 0;
-    }
-    .h1-principal{
-      width: 100%;
-      margin: 5% auto;
-      font-size: 18px;
-    }
-    a.Title-header{
-      color: red;
-    }
-    .ul-header-li a{
-      font-size: 12px;
-      padding: 8px;
-      width: 130px;
-    }
-    img.carousel-iner {
-      margin-left: 0;
-    }
-    img.d-block{
-      margin-left: 0;
-    }
-    img.d-block.img{
-      min-width: 500px;
-      max-width: 650px;
+  @media only screen and (max-width: 991px){
+
+  .Footer-div{
+    display: flex;
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-inner, .carousel-item, .d-block img .mx-auto{
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+
+  .text-center .p-3{
+    display: flex;
+  }
+
+  .ul-footer{
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+  }
+  .img-footer{
+    margin-right: 5%;
+    margin-left: 0;
+  }
+  .h1-principal{
+    width: 100%;
+    margin: 5% auto;
+    font-size: 18px;
+  }
+  a.Title-header{
+    color: red;
+  }
+  .ul-header-li a{
+    font-size: 12px;
+    padding: 8px;
+    width: 130px;
+  }
+  img.carousel-iner {
+    margin-left: 0;
+  }
+  img.d-block{
+    margin-left: 0;
+  }
+  img.d-block.img{
+    min-width: 500px;
+    max-width: 650px;
   }
   div.row h1{
     font-size: 25px;

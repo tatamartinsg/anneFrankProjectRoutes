@@ -4,16 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 
 
-export default function CarouselPage({imagens}){
+export default function CarouselPage({ imagens }) {
     return (
         <Carousel variant="dark">
             {
                 imagens.map((imagens, i) => (
                     <Carousel.Item key={i} >
                         <img
-                        className="d-block img"
-                        src={imagens.src}
-                        alt={imagens.alt}
+                            className="d-block img w-100"
+                            src={imagens.src}
+                            alt={imagens.alt}
                         />
                     </Carousel.Item>
                 ))

@@ -54,3 +54,14 @@
     border-bottom:3px solid #ffffff;
     transform: scale(1.1);
   }
+
+@media only screen and (max-width: 991px){
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+} 

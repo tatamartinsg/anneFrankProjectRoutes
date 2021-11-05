@@ -48,7 +48,7 @@ body {
   
   .anneCorpo{
     width: 420px;
-      float: left;
+    float: left;
     margin: 0px 50px 30px 50px;
     transition: 0.5s all;
     opacity: 0.8;
@@ -91,3 +91,21 @@ body {
     transform: scale(1.1);
     opacity: 1;
   }
+@media only screen and (max-width: 991px){
+  .container {
+      flex-direction: column;
+  }
+
+  .div-corpo{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  img.anneCorpo {
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+  }
+
+}

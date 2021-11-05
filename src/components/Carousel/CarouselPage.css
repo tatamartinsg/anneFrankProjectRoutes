@@ -27,7 +27,7 @@
         width: fit-content;
     }
     img.d-block{
-      margin-left: 2%;
+        margin-left: 2%;
     }
 
     div.justify-content-md-center{
@@ -44,14 +44,25 @@
         padding: 0;
         width: 100%;
     }
-    img.d-block.img{
-        width: 550px;
-        height: 400px;
+
+    .col {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
+
+    .justify-content-md-center .row{
+        width: 100%;
+    }
+
+    .carousel {
+        width: 100%;
+        margin: 0;
+        padding: 0;    }
 }
 @media only screen and (max-width: 780px){
     img.d-block.img{
-        width: 450px;
-        height: 350px;
+        /* width: 450px;
+        height: 350px; */
     }
 }
