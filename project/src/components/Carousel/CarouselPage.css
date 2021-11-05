@@ -4,11 +4,54 @@
 }
 
 .carousel-inner img {
-    width: 100%;
+    width: 800px;
     margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 3px  4px 8px 3px;
+}
+.carousel-inner{
+    padding: 10px;
 }
 
 .carousel {
     height:435px;
     margin: auto;
+}
+
+@media only screen and (max-width: 1200px){
+    /* img.carousel-inner {
+      margin-left: 0;
+      width: 0px;
+    } */
+    .h1-principal, .container{
+        width: fit-content;
+    }
+    img.d-block{
+      margin-left: 2%;
+    }
+
+    div.justify-content-md-center{
+        width: fit-content;
+    }
+    img.carousel-inner{
+        width: fit-content;
+    }
+  }
+
+@media only screen and (max-width: 980px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    img.d-block.img{
+        width: 550px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 780px){
+    img.d-block.img{
+        width: 450px;
+        height: 350px;
+    }
 }

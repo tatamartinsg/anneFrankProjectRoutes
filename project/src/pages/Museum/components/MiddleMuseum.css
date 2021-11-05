@@ -28,3 +28,10 @@
     height: 400px;
     justify-content: center;
 }
+
+a.information{
+    color: rgb(243, 17, 17);
+}
+a.information:hover{
+    color: blue;
+}

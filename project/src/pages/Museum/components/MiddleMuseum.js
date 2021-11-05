@@ -1,5 +1,5 @@
 import React from "react";
-import "./Middle.css";
+import "./MiddleMuseum.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from "react-bootstrap";
 import CarouselPage from "../../../components/Carousel/CarouselPage";
@@ -60,7 +60,7 @@ export default function Middle(){
                         Adults pay 9 euros, children and teenagers from 10 to 17 years pay 4.50 euros, and children up to 9 years old have free entry.
 
                         As the Anne Frank House is one of the most visited tourist spots in Amsterdam, there are always queues, so it is best to 
-                        purchase your ticket online. <a href = "https://www.annefrank.org/en/museum/practical-information/" target = "_blank">See more information here.</a></p>
+                        purchase your ticket online. <a className="information" href = "https://www.annefrank.org/en/museum/practical-information/" target = "_blank">See more information here.</a></p>
                         
                         <p className="content-right">
                         Buy your Anne Frank Museum ticket online and skip the lines

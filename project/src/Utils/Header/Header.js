@@ -25,7 +25,7 @@ export default function Header2(){
         <header>
             <Navbar className="nav-ul">
                 <Container>
-                    <Navbar.Brand className="Title-header" href="/" style={{ fontSize: '30px', color:'white' }}>
+                    <Navbar.Brand className="Title-header" href="/" style={{color:'white' }}>
                         &#10051; {pageName === '' ? 'Anne Frank' : pageName}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

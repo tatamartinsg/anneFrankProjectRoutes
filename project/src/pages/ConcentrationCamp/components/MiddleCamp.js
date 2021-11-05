@@ -1,5 +1,5 @@
 import React from "react";
-import "./Middle.css";
+import "./MiddleCamp.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from "react-bootstrap";
 import CarouselPage from "../../../components/Carousel/CarouselPage";
@@ -11,7 +11,7 @@ export default function Middle(){
         <>
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col md={10}>
+                    <Col md={12}>
                         <br></br>
                         <CarouselPage imagens={ImagesConCamp} />
                     </Col>
