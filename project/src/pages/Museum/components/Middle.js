@@ -2,8 +2,9 @@ import React from "react";
 import "./Middle.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from "react-bootstrap";
-import CarouselPage from "./carouselPage";
+import CarouselPage from "../../../components/Carousel/CarouselPage";
 import cc2 from "../../../assets/museum/casa-anne-frank-amsterdam1.jpg";
+import { ImagesMuseum } from "../../../Utils/Images";
 
 export default function Middle(){
     return (
@@ -12,7 +13,7 @@ export default function Middle(){
                 <Row className="justify-content-md-center">
                     <Col md={12}>
                         <br></br>
-                        <CarouselPage></CarouselPage>
+                        <CarouselPage imagens={ImagesMuseum} />
                     </Col>
                 </Row>
                 <Row>

@@ -8,9 +8,9 @@ import ConcentrationCamp from './pages/ConcentrationCamp';
 export default function Routes(){
      return(
             <BrowserRouter>
-                <Route path="/" exact component={ Home } />
-                <Route path="/museum" component = { Museum }/>
-                <Route path="/concentrationCamp" component={ ConcentrationCamp } />
+                <Route exact path="/" component={ Home } />
+                <Route exact path="/museum" component = { Museum }/>
+                <Route exact path="/concentrationCamp" component={ ConcentrationCamp } />
             </BrowserRouter>
      )
     
