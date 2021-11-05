@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header2 from '../../Utils/Header/HeaderCamp';
+import Header2 from '../../Utils/Header/HeaderHome';
 import Middle2 from '../Museum/components/Middle';
 import Footer2 from '../../Utils/Footer/Footer2';
 
